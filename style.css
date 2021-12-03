@@ -1,0 +1,180 @@
+/* All reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  */
+body {
+  font-family: "Manrope", sans-serif;
+  background: #040c18;
+  color: white;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* NavBar-section */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 55px;
+  padding: 17px 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.Links-section {
+  display: flex;
+  align-items: center;
+}
+
+.Links-section a:link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 54px;
+}
+
+.login-section a:link {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 26px;
+}
+
+.signup-btn {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  border-radius: 5px;
+  padding: 17px 45px;
+  background: #ff4820;
+  color: #fff;
+  border: none;
+}
+
+/* intro-section */
+.intro-section {
+  display: flex;
+}
+
+.intro {
+  flex: 1 0 50%;
+}
+
+.intro h1 {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: -0.04em;
+  margin-top: 100px;
+  margin-bottom: 33px;
+}
+
+.intro h1 + p {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 27px;
+  color: #81afdd;
+  margin-bottom: 35px;
+}
+
+.email {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.email input {
+  background: #052d56;
+  color: #3d6184;
+  max-width: 400px;
+  width: 100%;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  padding: 26px 32px;
+}
+
+.email button {
+  display: block;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  background: #ff4820;
+  padding: 22px 32px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 27px;
+  color: #fff;
+}
+
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.signup img {
+  margin-left: -15px;
+}
+
+.signup img:nth-of-type(1) {
+  margin-left: 5px;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #13ded2;
+  width: 36px;
+  height: 36px;
+  color: #000;
+  font-weight: 800;
+  font-size: 8px;
+  line-height: 38px;
+  margin-right: 8px;
+  margin-left: -15px;
+}
+
+/* top-companies section */
+
+.top-companies {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 250px;
+  margin-bottom: 127px;
+}
+
+/* gtp3-detail section */
+
+.gtp3-detail {
+  background: #042c54;
+  padding: 55px 57px;
+}
+
+.gtp3-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gtp3-intro h4 {
+  font-weight: 800;
+  font-size: 24px;
+  align-self: flex-start;
+  flex: 0 0 35%;
+}
+
+.gtp3-intro p {
+  color: #81afdd;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+}
